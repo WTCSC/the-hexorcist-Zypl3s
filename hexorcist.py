@@ -1,4 +1,6 @@
-digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# Provides a terminal based base converting algorithm. Made by Zach Stelman. 11/15/2025.
+
+digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ" # Allows everybase to be used
 
 # Converts input to a decimal / Base10
 def to_decimal(number_string, original_base):
